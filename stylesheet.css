@@ -1,1 +1,10 @@
+.hero {
+    background-color: #f8f9fa;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.volunteer-steps li {
+    margin-bottom: 0.5rem;
+}
 
