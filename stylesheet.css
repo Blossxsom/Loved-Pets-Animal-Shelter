@@ -103,3 +103,9 @@
     justify-content: center; /* Center align all images */
   }
   
+  img {
+    max-height: 200px; /* Set a maximum height */
+    object-fit: cover; /* Ensure images maintain proportions */
+    margin-bottom: 15px; /* Add spacing below images */
+  }
+  
