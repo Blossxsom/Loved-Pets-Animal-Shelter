@@ -84,3 +84,22 @@
     color: var(--secondary-color);
     margin-top: 3rem;
 }
+
+
+/* Target images in the Services section */
+.services img {
+    width: 120%; /* Increase width slightly */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto; /* Add some space around the images */
+    display: block; /* Center the images */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visuals */
+  }
+  
+  /* Adjust container or grid layout if needed */
+  .services {
+    display: flex; /* Ensure images align properly */
+    gap: 20px; /* Space between images */
+    justify-content: center; /* Center align all images */
+  }
+  
