@@ -2,14 +2,14 @@
     background-color:#EDE8DC;
   }
   .navbar{
-    background-color :#A5B68D;
+    background-color :#694c3f;
     font-family: 'Georgia', monospace; 
     font-weight: 400;
   } 
   
   .nav-link{ opacity: 0.7;}
   .nav-link:hover {
-    background-color:#E7CCCC; 
+    background-color:#40647a; 
     opacity: 1;
     color:#A5B68D !important; 
   }
