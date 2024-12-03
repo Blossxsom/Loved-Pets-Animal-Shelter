@@ -110,7 +110,7 @@
   }
   
 
-  
+
   #services {
     background-color: #ffffff;
   }
@@ -164,6 +164,49 @@
   
   @media (max-width: 768px) {
     .service-card {
+      margin-bottom: 20px;
+    }
+  }
+
+  #gallery {
+    background-color: #ffffff;
+  }
+  
+  h2 {
+    color: #40647a;
+  }
+  
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .gallery-item img {
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  footer {
+    background-color: #40647a;
+  }
+  
+  footer p {
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-item {
       margin-bottom: 20px;
     }
   }
